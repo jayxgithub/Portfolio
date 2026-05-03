@@ -123,7 +123,7 @@ index.html
 ## 📬 Contact Me
 
 📧 Email: jaybombatkar78539@gmail.com    
-🔗 LinkedIn: https://linkedin.com/in/jay-bombatkar  
+🔗 LinkedIn:[ https://linkedin.com/in/jay-bombatkar  ](https://www.linkedin.com/in/jay-bombatkar-2436332b5/)
 
 ---
 
