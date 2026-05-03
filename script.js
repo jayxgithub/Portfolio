@@ -31,5 +31,25 @@ function type() {
 
   setTimeout(type, isDeleting ? 50 : 100);
 }
+function trackDownload() {
+  let count = localStorage.getItem("resumeDownloads");
+
+  if (!count) {
+    count = 0;
+  }
+
+  count++;
+  localStorage.setItem("resumeDownloads", count);
+
+  document.getElementById("downloadCount").innerText =
+    "📊 Downloads: " + count;
+}
+
+// Show count on page load
+window.onload = function () {
+  let count = localStorage.getItem("resumeDownloads") || 0;
+  document.getElementById("downloadCount").innerText =
+    "📊 Downloads: " + count;
+};
 
 type();
