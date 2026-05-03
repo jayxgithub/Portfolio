@@ -336,3 +336,20 @@ footer a:hover {
 #services .card {
   margin-bottom: 25px;
 }
+
+.hero-buttons a {
+  margin: 10px;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(0,212,255,0.2), transparent);
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  filter: blur(80px);
+}
+
