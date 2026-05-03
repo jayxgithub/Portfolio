@@ -17,21 +17,62 @@
     <li><a href="#projects">Projects</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#education">Education</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact" class="btn">Hire Me</a></li>
+    <a href="https://github.com/jayxgithub" class="btn">View Code</a>
   </ul>
 </nav>
 
 <header class="hero">
   <div class="hero-content">
-    <h1 id="typing"></h1>
-    <p>⚡ <p>🚀 Freelance Embedded Engineer | PCB Design | IoT Solutions</p></p>
 
+    <!-- 🔥 Strong Headline -->
+    <h1 id="typing"></h1>
+
+    <p style="font-size:18px; margin-top:10px;">
+      🚀 Embedded Systems Engineer | PCB Designer (KiCad & Altium)
+    </p>
+
+    <p style="margin-top:10px; color:#a8d5ff;">
+      I help build reliable hardware systems, PCB designs, and firmware solutions.
+    </p>
+
+    <!-- 🔥 Buttons -->
     <div class="hero-buttons">
-      <a href="#projects" class="btn">Explore Projects</a>
-      <a href="assets/Jay_Bombatkar_Resume.pdf" download class="btn-outline">📥 Resume</a>
+      <a href="#projects" class="btn">View My Work</a>
+      <a href="assets/Jay_Bombatkar_Resume.pdf" download class="btn-outline">📥 Download Resume</a>
     </div>
+
+    <!-- 🖼 PCB IMAGE -->
+    <img src="assets/pcb1.png"
+         style="width:300px; margin-top:30px; border-radius:12px; box-shadow:0 0 40px rgba(0,212,255,0.3);">
+    
+    <img src="assets/pcb2.png"
+         style="width:300px; margin-top:30px; border-radius:12px; box-shadow:0 0 40px rgba(0,212,255,0.3);">
+    
+    <img src="assets/pcb3.png"
+         style="width:300px; margin-top:30px; border-radius:12px; box-shadow:0 0 40px rgba(0,212,255,0.3);">
+
+   
+    <!-- 💡 FEATURE CARDS -->
+    <div style="margin-top:40px; display:flex; justify-content:center; gap:20px; flex-wrap:wrap;">
+
+      <div class="card" style="width:220px;">
+        ⚡ PCB Design Projects
+      </div>
+
+      <div class="card" style="width:220px;">
+        🔧 STM32 & PIC Projects
+      </div>
+
+      <div class="card" style="width:220px;">
+        🧠 Embedded + Hardware Expertise
+      </div>
+
+    </div>
+
   </div>
 </header>
+
 
 <section id="about">
   <h2>Professional Summary</h2>
@@ -137,32 +178,74 @@
   <h2>Projects</h2>
 
   <div class="card">
-    <h3>🎮 CNC Controller Using MPG (Manual Pulse Generator)</h3>
-    <p>Developed a microcontroller-based CNC jogging controller for precise manual control of X, Y, and Z axes using an MPG rotary encoder, enabling sub-millimeter positioning accuracy.</p>
-    <ul style="margin: 12px 0 12px 20px; color: #a8d5ff; font-size: 14px;">
-      <li>Designed and validated 2-layer PCB in KiCad with component placement, signal routing, and EMI/EMC mitigation</li>
-      <li>Implemented Embedded C firmware for quadrature encoder interfacing and real-time axis control</li>
-      <li>Performed comprehensive hardware testing using oscilloscope and MPLAB X IDE</li>
-    </ul>
-    <p style="font-size: 13px; color: #7c3aed; margin-top: 12px; margin-bottom: 15px;">⚙️ Embedded C • STM32 • KiCad • Oscilloscope</p>
+  <h3>🎮 CNC Controller Using MPG (Manual Pulse Generator)</h3>
+
+  <p>
+    Developed a microcontroller-based CNC jogging controller for precise manual control of X, Y, and Z axes using an MPG rotary encoder.
+  </p>
+
+  <ul style="margin: 12px 0 12px 20px; color: #a8d5ff; font-size: 14px;">
+    <li>2-layer PCB design in KiCad with EMI/EMC considerations</li>
+    <li>Quadrature encoder interfacing using Embedded C</li>
+    <li>Real-time axis control + hardware debugging</li>
+  </ul>
+
+  <p style="font-size: 13px; color: #7c3aed; margin-top: 12px; margin-bottom: 15px;">
+    ⚙️ Embedded C • STM32 • KiCad • Oscilloscope
+  </p>
+
+  <!-- 🔥 Buttons -->
+  <div style="margin-top:15px;">
+    <a href="projects/cnc-controller.html" class="btn">View Case Study</a>
+    <a href="https://github.com/yourusername/cnc-controller" class="btn-outline">View Code</a>
   </div>
+</div>
 
   <div class="card">
-    <h3>🔌 STM32-Based Embedded System PCB Design</h3>
-    <p>Designed a production-ready STM32 microcontroller PCB using Altium Designer with full schematic capture, four-layer PCB layout, and design rule checks (DRC).</p>
-    <ul style="margin: 12px 0 12px 20px; color: #a8d5ff; font-size: 14px;">
-      <li>Implemented regulated power supply circuitry, USB and UART communication interfaces</li>
-      <li>Performed component placement optimization, differential pair routing, and impedance-controlled signal routing</li>
-      <li>Generated complete fabrication output (Gerber files, NC drill files, BOM) for PCB manufacturing</li>
-    </ul>
-    <p style="font-size: 13px; color: #7c3aed; margin-top: 12px;">📐 Altium Designer • 4-Layer PCB • Signal Integrity • EMC Compliance</p>
+  <h3>🔌 STM32-Based Embedded System PCB Design</h3>
+
+  <p>
+    Designed a production-ready STM32 PCB using Altium with 4-layer stackup and signal integrity considerations.
+  </p>
+
+  <ul style="margin: 12px 0 12px 20px; color: #a8d5ff; font-size: 14px;">
+    <li>USB & UART interfaces with regulated power design</li>
+    <li>Differential pair routing + impedance control</li>
+    <li>Generated Gerber, BOM, and fabrication files</li>
+  </ul>
+
+  <p style="font-size: 13px; color: #7c3aed; margin-top: 12px; margin-bottom: 15px;">
+    📐 Altium Designer • 4-Layer PCB • Signal Integrity • EMC
+  </p>
+
+  <!-- 🔥 Buttons -->
+  <div style="margin-top:15px;">
+    <a href="projects/stm32-pcb.html" class="btn">View Case Study</a>
+    <a href="https://github.com/yourusername/stm32-pcb" class="btn-outline">View Code</a>
   </div>
+</div>
 
   <div class="card">
-    <h3>🔍 Business Data Scraper</h3>
-    <p>Python automation tool to extract and analyze Google Maps business data with geolocation filtering and data validation.</p>
-    <p style="font-size: 13px; color: #7c3aed; margin-top: 12px;">🐍 Python • Web Scraping • Data Processing</p>
+  <h3>⚡ Dual Output Power Supply PCB</h3>
+
+  <p>
+    Designed a PCB using KiCad to convert 12V DC into regulated 5V and 3.3V outputs 
+    for embedded and IoT applications.
+  </p>
+
+  <ul style="margin: 10px 0 10px 20px; color: #a8d5ff; font-size: 14px;">
+    <li>12V → 5V & 3.3V regulation using LD1117</li>
+    <li>Input protection using fuses</li>
+    <li>LED indicators for power status</li>
+    <li>Compact and beginner-friendly PCB design</li>
+  </ul>
+
+  <!-- 🔗 Buttons -->
+  <div style="margin-top: 15px;">
+    <a href="projects/power-supply.html" class="btn">View Case Study</a>
+    <a href="https://github.com/jayxgithub/Dual-Output-Power-Supply-PCB-12V-5V-3.3V-" class="btn-outline">View Code</a>
   </div>
+</div>
 
 </section>
 
@@ -213,6 +296,16 @@
   </div>
 </section>
 
+<section>
+  <h2>Why Choose Me</h2>
+
+  <div class="card">
+    <p>✔ Real hardware project experience</p>
+    <p>✔ PCB design + firmware both</p>
+    <p>✔ Fast delivery & debugging skills</p>
+  </div>
+</section>
+
 <section id="contact">
   <h2>Get In Touch</h2>
   <div style="text-align: center; margin-top: 30px;">
@@ -223,6 +316,19 @@
   🚀 Available for Freelance Projects – Let's work together!
 </p> 
 </div>
+</section>
+
+<section id="resume">
+  <h2>Resume</h2>
+
+  <div class="card" style="text-align:center;">
+    <p style="margin-bottom:20px; color:#a8d5ff;">
+      You can view or download my resume below
+    </p>
+
+    <a href="assets/Jay_Bombatkar_Resume.pdf" target="_blank" class="btn-outline">👁 View Resume</a>
+    <a href="assets/Jay_Bombatkar_Resume.pdf" download class="btn">📥 Download Resume</a>
+  </div>
 </section>
 
 <footer>
