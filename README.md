@@ -5,7 +5,7 @@
 
 # 🌐 Embedded Systems Portfolio – Jay Bombatkar
 
-🔗 **Live Website:** https://yourusername.github.io/portfolio  
+🔗 **Live Website:**  https://github.com/jayxgithub/portfolio.git  
 
 ---
 
