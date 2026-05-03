@@ -122,8 +122,7 @@ index.html
 
 ## 📬 Contact Me
 
-📧 Email: jaybombatkar78539@gmail.com  
-📱 Phone: +91 8766815266  
+📧 Email: jaybombatkar78539@gmail.com    
 🔗 LinkedIn: https://linkedin.com/in/jay-bombatkar  
 
 ---
